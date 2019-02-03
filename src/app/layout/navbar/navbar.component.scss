@@ -1,0 +1,24 @@
+$menuItemColor: rgba(12, 23, 32, 0.91);
+
+a {
+  text-decoration: none;
+  color: $menuItemColor;
+
+  &:hover {
+    color: pink;
+  }
+  &:active {
+    color: yellow;
+  }
+}
+
+mat-toolbar{
+  border-radius: 1px;
+}
+
+@media(max-width: 959px){
+  mat-toolbar{
+    border-radius: 0px;
+  }
+
+}

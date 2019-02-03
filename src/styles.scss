@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+$primary-color: #ffff00;
+
+
+
+body {
+  /* background-image: url("../yellow-banner.jpg");*/
+  background-color:#f5f5f5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+
+}
+
+h1{
+  margin-top:0px;
+  padding-top:0px;
+  font:normal 20px/30px Georgia, serif;
+  color: black;
+}
+
+h3{
+  margin:20px auto;
+  padding-top:0px;
+  font:normal 25px/25px Georgia, serif;
+  color:black;
+  background-color: #a8a8a8;
+  text-align: center;
+  width: 80%;
+}

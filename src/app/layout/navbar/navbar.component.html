@@ -1,0 +1,22 @@
+<mat-toolbar>
+  <div>
+    <a routerLink="/home">Home</a>
+    <a routerLink="/chef-items">Chef Details</a>
+  </div>
+
+    <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon>create</mat-icon>
+        <a routerLink="/updateProfile">Profile</a>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>power_settings_new</mat-icon>
+        <a routerLink="/logout">Logout</a>
+      </button>
+    </mat-menu>
+    </div>
+</mat-toolbar>
