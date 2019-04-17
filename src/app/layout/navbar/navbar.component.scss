@@ -13,6 +13,17 @@ a {
 }
 
 mat-toolbar{
+  background-color: #a8a8a8;
+  margin: 0px auto;
+  width:70%;
+}
+
+.nav-link a{
+  margin-right: 10px;
+  font: normal 18px/15px Georgia, serif;
+}
+
+mat-toolbar{
   border-radius: 1px;
 }
 

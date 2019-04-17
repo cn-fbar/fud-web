@@ -1,0 +1,53 @@
+<h3>Chef Creation </h3>
+<mat-card class="example-card" appearance="standard">
+  <mat-card-content>
+
+        <form>
+
+
+            <h4>First Name: {{chef.firstName}}</h4>
+            <!--<input matInput name="firstName" placeholder="First name" required value="{{chef.firstName}}">-->
+
+          <mat-form-field>
+            <h4>Last Name: {{chef.lastName}}</h4>
+            <!--<input matInput name="lastName" placeholder="Last name" required value = "{{chef.lastName}}">-->
+          </mat-form-field>
+          <mat-form-field>
+            <h4>Description: {{chef.description}}</h4>
+            <!--<input matInput name="description" placeholder="Description" required value = "{{chef.description}}">-->
+          </mat-form-field>
+
+
+          <mat-form-field>
+            <h4>Address1: {{chef.address1}}</h4>
+          <!--<input matInput name="address1" placeholder="Address1"  required value = "{{chef.address1}}-">-->
+        </mat-form-field>
+          <mat-form-field>
+            <h4>Address2: {{chef.address2}}</h4>
+            <!--<input matInput name="address2" placeholder="Address2"  required value = "{{ chef.address2 }}-">-->
+          </mat-form-field>
+          <mat-form-field>
+            <h4>City: {{chef.city}}</h4>
+            <!--<input matInput name="city" placeholder="City"  required value = "{{ chef.city }}">-->
+          </mat-form-field>
+          <mat-form-field>
+            <h4>State: {{chef.state}}</h4>
+            <!--<input matInput name="state" placeholder="State"  required value="{{chef.state}}">-->
+          </mat-form-field>
+          <mat-form-field>
+            <h4>Country: {{chef.country}}</h4>
+            <!--<input matInput name="country" placeholder="Country"  required value ="{{ chef.country}}">-->
+          </mat-form-field>
+          <mat-form-field>
+            <h4>Zipcode: {{chef.zipcode}}</h4>
+            <!--<input matInput name="zipcode" placeholder="Zip Code"  required value="{{chef.zipcode}}">-->
+          </mat-form-field>
+
+        </form>
+        <div>
+          <button mat-button >Save</button>
+          <!--<button mat-button (click)="reset()">Reset</button>-->
+        </div>
+
+  </mat-card-content>
+</mat-card>

@@ -1,9 +1,9 @@
 import {NgModule} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
-  MatButtonModule, MatCardModule, MatDialogModule, MatInputModule, MatTableModule,
+  MatButtonModule, MatCardModule, MatDialogModule, MatTableModule,
   MatToolbarModule, MatMenuModule, MatIconModule, MatProgressSpinnerModule, MatCheckboxModule,
-  MatGridListModule, MatStepperModule, MatSelectModule, MatListModule, MatSidenavModule, MatRadioModule
+  MatGridListModule, MatStepperModule, MatSelectModule, MatListModule, MatSidenavModule, MatRadioModule, MatFormFieldModule, MatInputModule
 } from '@angular/material';
 @NgModule({
   imports: [
@@ -11,7 +11,6 @@ import {
     MatToolbarModule,
     MatButtonModule,
     MatCardModule,
-    MatInputModule,
     MatDialogModule,
     MatTableModule,
     MatMenuModule,
@@ -23,6 +22,8 @@ import {
     MatSelectModule,
     MatSidenavModule,
     MatRadioModule,
+    MatFormFieldModule,
+    MatInputModule
 
     /*MatGridList,
     MatGridAvatarCssMatStyler,
@@ -33,7 +34,6 @@ import {
     MatToolbarModule,
     MatButtonModule,
     MatCardModule,
-    MatInputModule,
     MatDialogModule,
     MatTableModule,
     MatMenuModule,
@@ -44,7 +44,9 @@ import {
     MatStepperModule,
     MatSelectModule,
     MatListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatFormFieldModule,
+    MatInputModule
     /*MatGridList,
     MatGridAvatarCssMatStyler,
     MatGridTile*/

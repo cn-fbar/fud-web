@@ -1,0 +1,49 @@
+.example-card{
+  width:45%;
+  height:auto;
+  background: transparent;
+  position: fixed;
+  left: 50%;
+  top:45%;
+  transform: translate(-50%, -50%);
+  align-content: center;
+}
+
+.example-form{
+  margin-left: 20px;
+  font-size: 20px;
+
+}
+mat-step{
+  margin: 0px auto;
+  width: auto;
+  align-content: flex-end;
+}
+
+mat-label{
+  font-weight: bold;
+  color: #000000;
+}
+
+mat-card-title{
+  font-weight: bold;
+  color: #000000;
+  text-align:center;
+}
+
+mat-card-actions{
+  padding-left: 90px;
+
+}
+
+#save{
+  background-color:#9fbfdf;
+}
+
+#cancel{
+  background-color:#9fbfdf;
+}
+.stepper{
+  background: transparent;
+
+}
