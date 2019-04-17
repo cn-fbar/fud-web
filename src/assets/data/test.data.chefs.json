@@ -1,0 +1,56 @@
+{
+  "_embedded": {
+    "chefs": [
+      {
+        "firstName": "Devi",
+        "lastName": "Vasantha",
+        "address1": "3451 Chapel Oaks drive",
+        "address2": "1903",
+        "city": "Coppell",
+        "state": "Texas",
+        "country": "United states",
+        "description": "good in non-veg, specialities - Chicken khorma, chapathi, dosa batter, soup",
+        "rating": 4.5,
+        "userid": "vasanthadeiveehan@gmail.com",
+        "profilePicURL": "https://drive.google.com/open?id=13JqhYnd8Y3br2rW5GlMVnHDCrqw4zH4V",
+        "_links": {
+          "self": {
+            "href": "https://fud-service.cfapps.io/api/chefs/1"
+          },
+          "chef": {
+            "href": "https://fud-service.cfapps.io/api/chefs/1"
+          }
+        }
+      },
+      {
+        "firstName": "Priya",
+        "lastName": "Srivatsan",
+        "address1": "3451 Chapel Oaks drive",
+        "address2": "1602",
+        "city": "Irving",
+        "state": "Texas",
+        "country": "United states",
+        "description": "veg, specialities - Gobi, panneer, paratha",
+        "rating": 3.5,
+        "userid": "priyasrivatsan@gmail.com",
+        "profilePicURL": "https://drive.google.com/file/d/1Pzpa6yDL7rFfQraSqbR-XRZypf6atJbG/view?usp=sharing",
+        "_links": {
+          "self": {
+            "href": "https://fud-service.cfapps.io/api/chefs/11"
+          },
+          "chef": {
+            "href": "https://fud-service.cfapps.io/api/chefs/11"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://fud-service.cfapps.io/api/chefs"
+    },
+    "profile": {
+      "href": "https://fud-service.cfapps.io/api/profile/chefs"
+    }
+  }
+}

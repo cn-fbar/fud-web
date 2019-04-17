@@ -1,3 +1,5 @@
 ---
 applications:
 - name: fud-web
+  path: dist/fud-web
+  buildpack: staticfile_buildpack

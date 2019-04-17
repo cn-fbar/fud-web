@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ChefItem} from '../../models/ChefItem';
+import {Chef} from '../../models/Chef';
 
 @Component({
   selector: 'app-chef-item',
@@ -8,7 +8,7 @@ import {ChefItem} from '../../models/ChefItem';
 })
 export class ChefItemComponent implements OnInit {
 
-  @Input() chefItem: ChefItem;
+  @Input() chef: Chef;
 
   @Input() showDeleteOption: boolean;
 

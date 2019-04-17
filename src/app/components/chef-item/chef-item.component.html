@@ -2,16 +2,18 @@
 <mat-card class="chef-card">
   <mat-card-header>
     <div mat-card-avatar="">
-      <img src = "../../../assets/images/{{chefItem.profilePic}}" class = "chef-img">
+      <img src = "{{chef.profilePicURL}}" class = "chef-img">
     </div>
-    <mat-card-title>{{chefItem.firstName}} {{chefItem.lastName}}</mat-card-title>
-    <mat-card-subtitle>{{chefItem.city}}</mat-card-subtitle>
+
+    <mat-card-title><a [routerLink]="['/chef-creation', chef.id]">{{chef.firstName}} {{chef.lastName}} </a></mat-card-title>
+    <mat-card-subtitle>{{chef.city}}</mat-card-subtitle>
   </mat-card-header>
   <mat-card-content>
     <p>
-     {{chefItem.description}}
+     {{chef.description}}
     </p>
-    <div *ngIf="showDeleteOption">
+    <!--<div ngIf="showDeleteOption">-->
+    <div>
       <button >Delete</button>
     </div>
   </mat-card-content>
